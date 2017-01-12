@@ -25,10 +25,10 @@
 \usepackage{hyperref}
 \hypersetup{
     bookmarks=true,   
-    pdftitle={Modelo LaTeX para Dissertações de Mestrado no Programa de Pós-Graduação em Informática da UFPB},
-    pdfauthor={Alexandre Nóbrega Duarte}, 
-    pdfsubject={Modelo de Documento Científico},
-    pdfkeywords={Dissertação, Mestrado, PPGI, UFPB, modelo}, 
+    pdftitle={Modelo LaTeX para Disserta√ß√µes de Mestrado no Programa de P√≥s-Gradua√ß√£o em Inform√°tica da UFPB},
+    pdfauthor={Alexandre N√≥brega Duarte}, 
+    pdfsubject={Modelo de Documento Cient√≠fico},
+    pdfkeywords={Disserta√ß√£o, Mestrado, PPGI, UFPB, modelo}, 
     colorlinks=true,
     linkcolor=black,
     citecolor=black,
@@ -40,13 +40,16 @@
 %-------------------------- Para usar acentuacaoo em sistemas ISO8859-1 ------------------------------------
 % Se estiver usando o Microsoft Windows ou linux com essa codificacao, descomente essas linhas abaixo
 % e comente as linhas referentes ao UTF8
-\usepackage[applemac]{inputenc} % Usar acentuacao em sistemas ISO8859-1, comentar a linha com  \usepackage[utf8x {inputenc}
+%\usepackage[applemac]{inputenc} % Usar acentuacao em sistemas
+                                % ISO8859-1, comentar a linha com
+                                % \usepackage[utf8x {inputenc}
+\usepackage[utf8x]inputenc}
 %-----------------------------------------------------------------------------------------------------
 
 %-------------------------- Para usar acentuacao em sistemas UTF8 ------------------------------------
 % Para a maior parte das distribuicoes linux, usar essa opcao
 \usepackage{ucs}
-%\usepackage[utf8x]{inputenc}
+\usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 %-----------------------------------------------------------------------------------------------------
 \usepackage{float}      
@@ -82,11 +85,11 @@ showstringspaces=false
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\Titulo{Modelo LaTeX para Dissertações de Mestrado no Programa de Pós-Graduação em Informática da UFPB}
-\Autor{Alexandre Nóbrega Duarte}
-\Data{06 de Março de 2012}
-\Area{Ciência da Computação}
-\Pesquisa{Computação Distribuída | Sinais, Sistemas Digitais e Gráficos}
+\Titulo{Modelo LaTeX para Disserta√ß√µes de Mestrado no Programa de P√≥s-Gradua√ß√£o em Inform√°tica da UFPB}
+\Autor{Alexandre N√≥brega Duarte}
+\Data{06 de Mar√ßo de 2012}
+\Area{Ci√™ncia da Computa√ß√£o}
+\Pesquisa{Computa√ß√£o Distribu√≠da | Sinais, Sistemas Digitais e Gr√°ficos}
 \Orientadores{O nome do seu orientador\\ (Orientador)}
 
 \newpage
@@ -150,11 +153,11 @@ showstringspaces=false
 %% Da seguinte maneira:
 %% 
 \input{dissertacao-cap1}
-\input{dissertacao-cap2}
-\input{dissertacao-cap3}
-\input{proposta-cap4}
-\input{proposta-cap5}
-\input{proposta-cap6}
+%\input{dissertacao-cap2}
+%\input{dissertacao-cap3}
+%\input{proposta-cap4}
+%\input{proposta-cap5}
+%\input{proposta-cap6}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -165,7 +168,7 @@ showstringspaces=false
 \bibliography{main} % arquivos com as entradas bib.
 
 %Faz aparecer a referencia bibliografica no indice
-\addcontentsline{toc}{section}{\numberline{}Referências Bibliográficas}
+\addcontentsline{toc}{section}{\numberline{}Refer√™ncias Bibliogr√°ficas}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Apendice
