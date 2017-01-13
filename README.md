@@ -4,19 +4,21 @@ Este repositório contém o template latex do PPGI para dissertação codificado
 
 ## Baixando o template
 
-O template pode ser baixado [neste link](https://github.com/edusantana/ufpb-ppgi-latex-template-dissertacao-uft8/releases/download/v0.2.1/ufpb-ppgi-latex-template-dissertacao-uft8-v0.2.1.zip) ou através do comando:
+O template pode ser baixado [neste link](https://github.com/edusantana/ufpb-ppgi-latex-template-dissertacao-uft8/releases/download/v0.2.2/ufpb-ppgi-latex-template-dissertacao-uft8-v0.2.2.zip) ou através do comando:
 
-    wget https://github.com/edusantana/ufpb-ppgi-latex-template-dissertacao-uft8/releases/download/v0.2.1/ufpb-ppgi-latex-template-dissertacao-uft8-v0.2.1.zip
+    wget https://github.com/edusantana/ufpb-ppgi-latex-template-dissertacao-uft8/releases/download/v0.2.2/ufpb-ppgi-latex-template-dissertacao-uft8-v0.2.2.zip
 
-Template de dissertação do ppgi com a codificação utf8
+## Compilando
+
+Para gerar os PDFs será necessário compilar os arquivos.
 
 Para compilar a proposta utilize:
 
-    latexmk -pdf proposta.tex
+    latexmk -xelatex proposta.tex
     
 Para compilar a dissertação utilize:
 
-    latexmk -pdf dissertacao.tex
+    latexmk -xelatex dissertacao.tex
 
 # Usuários do Windows e OS X
 
