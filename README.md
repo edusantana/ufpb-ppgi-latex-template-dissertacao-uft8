@@ -22,6 +22,10 @@ Para compilar a dissertação utilize:
 
 Em vez de alterar a codificação ou configuração dos arquivos, recomendo alterar a codificação do seu editor para utilizar UTF-8 nos arquivos deste projeto.
 
+# Obtendo ajuda sobre o latex
+
+Caso tenha dúvidas sobre utilização do Latex considere postá-las no [grupo latex-br](https://groups.google.com/forum/#!forum/latex-br).
+
 # Sobre o template original
 
 O template original, criado por Alexandre Nóbrega, pode ser encontrado [nesse link](http://cl.ly/2Z16461O1B3O463J0S3j).
